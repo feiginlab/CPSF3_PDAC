@@ -1,0 +1,17 @@
+Annotated_3UTR=./GRCh38_GENCODEv38_extracted_3UTR.bed
+Group1_Tophat_aligned_Wig=Panc1-DMSO-R1_hg38.bg,Panc1-DMSO-R2_hg38.bg,Panc1-DMSO-R3_hg38.bg
+Group2_Tophat_aligned_Wig=Panc1-JTE607-R1_hg38.bg,Panc1-JTE607-R2_hg38.bg,Panc1-JTE607-R3_hg38.bg
+
+
+Output_directory=./DaPars
+Output_result_file=Results_GRCh38v38
+
+#Parameters
+Num_least_in_group1=1
+Num_least_in_group2=1
+Coverage_cutoff=30
+FDR_cutoff=0.05
+#PDUI_cutoff=0.4
+PDUI_cutoff=0.1
+Fold_change_cutoff=0.59
+
